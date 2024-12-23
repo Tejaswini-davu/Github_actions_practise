@@ -1,6 +1,6 @@
 # test_operations.py
 
-from app import square, add_numbers, subtract_numbers
+from src.app import square, add_numbers, subtract_numbers
 
 def test_square():
     assert square(2) == 4
