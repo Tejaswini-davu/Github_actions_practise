@@ -1,5 +1,3 @@
-# test_operations.py
-
 from src.app import square, add_numbers, subtract_numbers
 
 def test_square():
@@ -12,4 +10,5 @@ def test_add_numbers():
 
 def test_subtract_numbers():
     assert subtract_numbers(10, 5) == 5
+    
     assert subtract_numbers(0, 4) == -4
